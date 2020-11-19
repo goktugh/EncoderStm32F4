@@ -1,6 +1,10 @@
 #include <Stm32F4_Encoder.h>
 
-
+/*
+   Stm32F4_Encoder.cpp
+    Created on: Nov 20, 2020
+        Author: GoktugH.
+*/
 
 Encoder::Encoder() {
   int unit;
