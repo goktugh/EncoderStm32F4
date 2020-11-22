@@ -1,7 +1,9 @@
 # EncoderStm32F4
 # Software requirements
+STM32 core support for Arduino. https://github.com/stm32duino/Arduino_Core_STM32
 # Hardware requirements
-# PIN Connections
+Generic STM32F407 Development Board.
+# Quadrature Encoder Connections
 
 | Encoder 1  | Stm32f407ve |                     
 | ------------- | ------------- |
