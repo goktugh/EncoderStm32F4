@@ -17,6 +17,7 @@
 
   =========================================================
 
+
 */
 
 
@@ -26,7 +27,7 @@ Encoder EncoderInit;
 
 void setup() {
 
-  Serial.begin(115200);
+  Serial.begin(115200);  //Serial Pins <--> PA9,PA10
   rcc_config();
 
   //Set starting count value
