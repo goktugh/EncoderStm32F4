@@ -1,7 +1,8 @@
 # EncoderStm32F4
 EncoderStm32F4 library decoding quadrature pulses using hardware based timer-encoder mode.
 
-# WARNING: This library software is new and has not ben widely tested by many people.
+# WARNING: 
+This library software is new and has not ben widely tested by many people.
 # Software requirements
 STM32 core support for Arduino. https://github.com/stm32duino/Arduino_Core_STM32
 # Hardware requirements
