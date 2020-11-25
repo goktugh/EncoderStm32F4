@@ -1,7 +1,5 @@
 #include <Stm32F4_Encoder.h>
 
-
-
 /*
    =========================================================
   TIM2 <---- Pinout ----> STM32F407V
@@ -23,17 +21,7 @@
 
 
 
-
-
-
-
-
 Encoder EncoderInit;
-
-
-
-
-
 
 
 void setup() {
