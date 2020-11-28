@@ -40,22 +40,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 typedef struct TIM_TimeBaseInitTypeDef
 {
   uint16_t TIM_Prescaler;         /*!< Specifies the prescaler value used to divide the TIM clock.
@@ -87,13 +71,6 @@ typedef struct
   uint16_t setcount;
 
 } encoder;
-
-
-
-
-
-
-
 
 
 
