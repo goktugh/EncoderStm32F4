@@ -170,18 +170,6 @@ void GpioConfigPortD(GPIO_TypeDef * GPIOx) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 void TIM_EncoderInterConfig(TIM_TypeDef* TIMx, uint16_t TIM_EncoderMode, uint16_t TIM_IC1Polarity, uint16_t TIM_IC2Polarity)
 {
 
@@ -223,17 +211,6 @@ void TIM_EncoderInterConfig(TIM_TypeDef* TIMx, uint16_t TIM_EncoderMode, uint16_
   TIMx->CCER = tmpccer;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -343,21 +320,11 @@ void rcc_config() {
   RCC->APB1ENR |= 0x00000001; //APB1 TIM2
   RCC->APB1ENR |= 0x00000002; //APB1 TIM3
 
-  //  encoSetGpio(GPIOC, 6);
-  //  encoSetGpio(GPIOC, 7);
-  //
-  //  encoSetGpio(GPIOD, 12);
-  //  encoSetGpio(GPIOD, 13);
-
-  //  encoSetGpio(GPIOA, 0);//TIM2
-  //  encoSetGpio(GPIOA, 1);//TIM2
-
   GpioConfigPortA(GPIOA);
   GpioConfigPortC(GPIOC);
   GpioConfigPortD(GPIOD);
 
-  //  encoSetGpio(GPIOA, 6);//TIM3
-  //  encoSetGpio(GPIOA, 7);//TIM3
+
 
   GPIO_PinAF(GPIOA, GPIO_PinSource6, GPIO_AF_TIM3);
   GPIO_PinAF(GPIOA, GPIO_PinSource7, GPIO_AF_TIM3);
@@ -406,9 +373,6 @@ void rcc_config() {
   TIM_Cmd (TIM3, ENABLE);
 
   TIM3->CNT = 0;
-
-
-
 
 
 
