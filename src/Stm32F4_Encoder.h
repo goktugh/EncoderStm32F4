@@ -707,9 +707,9 @@ class Encoder
     void  eattach(int enco);
     Encoder();
     void SetCount( enum EncTimer enc, int64_t Counter);
-    int16_t  GetCount( enum EncTimer enc);
+    uint16_t  GetCount( enum EncTimer enc);
     void attachh(int encoNumber);
-    int16_t c;
+    uint16_t c;
 };
 
 
