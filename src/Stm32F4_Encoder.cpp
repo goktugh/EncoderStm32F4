@@ -30,7 +30,7 @@ void Encoder::SetCount(  enum EncTimer enc, int64_t Counter) {
   else if (enc == Tim8) TIM8->CNT = Counter;
 
 }
-int16_t  Encoder::GetCount(enum EncTimer enc) {
+uint16_t  Encoder::GetCount(enum EncTimer enc) {
 
   if (enc == Tim2) c = (TIM2->CNT);
   else if (enc == Tim3) c = (TIM3->CNT);
